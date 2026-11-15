@@ -4,17 +4,18 @@ An experimental native Flutter Jellyfin client for Samsung Tizen 6.0+ TVs
 (normally 2021 and newer). Free to download; bring your own Jellyfin server.
 No server address, account or media library is bundled.
 
-[Download the TPK](https://zorofin.app/downloads/zorofin-tizen-1.3.0.tpk) ·
+[Download the 1.4 TPK](https://github.com/Zoraz01/zorofin-tizen-releases/releases/download/tizen-v1.4.0-preview.1/zorofin-tizen-1.4.0.tpk) ·
 [Install guide](https://zorofin.app/samsung-tv) ·
-[Release notes](https://github.com/Zoraz01/zorofin-tizen-releases/releases/tag/tizen-v1.3.0-preview.1) ·
+[Release notes](https://github.com/Zoraz01/zorofin-tizen-releases/releases/tag/tizen-v1.4.0-preview.1) ·
 [Support](https://zorofin.app/support) · [Privacy](https://zorofin.app/privacy)
 
 ## Experimental preview
 
-Release `tizen-v1.3.0-preview.1` contains app version **1.3.0**.
-The release build and 91 automated TV-app tests passed. The analyzer reports
-four informational diagnostics (three Flutter deprecations and a generated SDK
-import), with no errors or warnings. Package integrity, app identity,
+Release `tizen-v1.4.0-preview.1` contains app version **1.4.0**.
+Built from the shared-TV baseline used for the released LG 1.4, packaged with
+the native Tizen runner. The release build and 269 automated tests passed
+(8 existing skips). The analyzer reports nine informational diagnostics with
+no errors or warnings. These checks do not prove Samsung device behavior. Package integrity, app identity,
 privileges and the absence of signing keys, PDBs and private workstation paths
 were checked. **It has not been installed or tested on a Samsung TV or emulator.**
 The minimum API is a build target; compatibility with every model is not claimed.
@@ -34,11 +35,12 @@ Samsung sign-in/certificate setup where required.
 
 ## Verify the download
 
-The same immutable TPK is served on zorofin.app and attached to the versioned
-GitHub prerelease. Compare its SHA-256 with `SHA256SUMS` in that release:
+The immutable 1.4 TPK is attached to the versioned GitHub prerelease.
+The website may still offer the earlier 1.3 preview; use the release link above
+for this 1.4 package. The previous 1.3 release remains available for rollback. Compare its SHA-256 with `SHA256SUMS` in that release:
 
 ```sh
-shasum -a 256 zorofin-tizen-1.3.0.tpk
+shasum -a 256 zorofin-tizen-1.4.0.tpk
 ```
 
 ## Distribution and credits
