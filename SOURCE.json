@@ -1,18 +1,18 @@
 {
-  "version": "1.4.0",
-  "source_commit": "4a737705733f3d8890455dee4a5c8f076e84d62b",
-  "shared_tv_baseline": "0cbf921bf81e0df45cf6f6c4e91155c30b1244ef",
-  "flutter_tizen_revision": "22bcec9058fbe1e0943e6c6fda21792f24868e91",
-  "build_number": "156",
-  "tests": {
-    "passed": 269,
-    "skipped": 8
+  "version": "1.5.0",
+  "source_commit": "8ac3b6dbb1407a83224c7e21f2c42c4c2badec25",
+  "build_number": "170",
+  "built": "2026-11-24",
+  "package": {
+    "api_version": "6.0",
+    "profile": "tv-samsung",
+    "privileges": ["internet", "network.get"],
+    "signatures": ["author", "distributor"]
   },
-  "analyzer": {
-    "errors": 0,
-    "warnings": 0,
-    "infos": 9
+  "device_testing": {
+    "samsung_q80b": "An earlier 1.5.0 test build (Nov 24 2026); not build 170",
+    "build_170_on_samsung_tv_or_emulator": false,
+    "shared_flutter_code": "Passed on Fire TV and the Android phone emulator"
   },
-  "samsung_tv_or_emulator_tested": false,
   "note": "Source remains private; this repository publishes binaries and release information only."
 }

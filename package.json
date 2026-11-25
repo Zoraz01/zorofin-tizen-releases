@@ -1,11 +1,12 @@
 {
-  "file": "zorofin-tizen-1.4.0.tpk",
-  "bytes": 11670277,
-  "sha256": "5d04d96cb1bd3355d87ae31c8535fcf964e49f53bcfa3c7d78bc95eddb7b9017",
+  "file": "zorofin-tizen-1.5.0.tpk",
+  "bytes": 13090463,
+  "sha256": "47da0405762ac7bb163b27bc5ae30c1e7fb89d4a5f910ba4adfdea7d0c71e544",
   "package_id": "org.zorofin.tv",
-  "version": "1.4.0",
+  "version": "1.5.0",
+  "build_number": "170",
   "minimum_tizen": "6.0",
-  "status": "experimental",
-  "device_testing": "Not run on a Samsung TV or emulator",
+  "status": "release",
+  "device_testing": "An earlier 1.5.0 test build ran on a Samsung Q80B; build 170 itself has not run on a Samsung TV or emulator",
   "signing": "Re-sign with Samsung certificates covering the target TV DUID before installation"
 }
